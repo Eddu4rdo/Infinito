@@ -16,14 +16,7 @@ main{
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-image: url("pexels-cottonbro-6551792.jpg");
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: inset 5px 5px 15px black;
-    border-radius: 0px 0px 0px 0px;
-    box-shadow: 10px 10px 20px black;
+    background-image: linear-gradient(to bottom, #69377F, #A600D6 );
 
     
 }
@@ -41,13 +34,14 @@ nav, nav> a{
     font-family: cursive;
     font-weight: bold;
     padding: 5px;
-    background-color: #400808 ;
-    border-radius: 20px 0px 0px 0px;
-    box-shadow: 3px 1px 3px black;
+    background-color: #69377F;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 3px 5px 20px black;
 }
 
 nav{
-    background-color: #230505;
+    background-color: #9068a0;
+    box-shadow: 3px 5px 20px black;
 }
 
 
