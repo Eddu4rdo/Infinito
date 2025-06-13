@@ -6,34 +6,50 @@
     <link rel="stylesheet" href="estilo/pag001.css">
     <title>Amor da minha Vida</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <a href="../index.html" class="semlink">&#x1F90D Além do infinito &#x1F90D</a>
-        </nav>
-    </header>
+<body onresize="mudouTamanho()">
     <main>
+        <span id="menu" onclick="clickMenu()">&#x1F90D Minha Princesa
+        </span>
+        <nav>
+        <a href="home.html"  class="link"></a>Além do Infinito</a>
+        <a href="#" class="link"></a>Eu te Amo</a>
+        </nav>
+        
         <section id="imagem">
-            <a href="home.html" target="texto"><img src="../imagens/IMG-20231026-WA0002.jpg" alt="" class="sombraimagem"></a>
-            <a href="home.html" target="texto"><img src="../imagens/IMG-20231230-WA0022.jpeg" alt="" class="sombraimagem"> </a>
-            <a href="home.html" target="texto"><img src="../imagens/IMG-20240203-WA0028.jpg" alt="" class="sombraimagem"> <br></a>
-            <a href="home.html" target="texto"><img src="../imagens/IMG-20240203-WA0029.jpg" alt=""> <br></a>
-            <a href="home.html" target="texto"><img src="../imagens/IMG-20240203-WA0031.jpg" alt="">  <br></a>
-
-            <a href="home.html" target="texto"><img src="../imagens/IMG_20231210_091421.jpg" alt=""> </a>
-            <a href="home.html" target="texto"><img src="../imagens/IMG_20240223_134510.jpg" alt=""></a>
-            <a href="home.html" target="texto"><img src="../imagens/IMG_20240427_220709_233.jpg" alt=""></a>
-            
+            <ul>
+                <li><a href="home.html" target="texto"><img src="../imagens/IMG-20231026-WA0002.jpg" alt="" class="sombraimagem"></a></li>
+                <li><a href="home.html" target="texto"><img src="../imagens/IMG_20231210_091421.jpg" alt=""> </a></li>
+                <li><a href="home.html" target="texto"><img src="../imagens/IMG_20240223_134510.jpg" alt=""></a></li>
+                <li><a href="home.html" target="texto"><img src="../imagens/IMG_20240427_220709_233.jpg" alt=""></a></li>
+                <p class="link"><a href="home.html">Além do Infinito</a></p>
+                
+            </ul>
         </section>
         <section id="home">
             <iframe src="imagemcoração.html" name="texto" id="texto" frameborder="0" ></iframe>
         </section>
-        <aside>
-            <div>
-                <h1>Feliz dia dos namorados</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos quia eveniet voluptatum, itaque suscipit deserunt minima accusantium quae, saepe, libero reprehenderit praesentium! Exercitationem accusantium quasi tempora similique ea tempore ratione.</p>
-            </div>
-        </aside>
     </main>
+    <footer>
+        
+    </footer>
+    <script>
+        function clickMenu() {
+      const imagem = document.getElementById('imagem');
+      if (imagem.style.display === 'block') {
+        imagem.style.display = 'none';
+      } else {
+        imagem.style.display = 'block';
+      }
+    }
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+        
+    </script>
 </body>
 </html>
