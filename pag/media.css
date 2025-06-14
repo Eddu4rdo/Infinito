@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px ) {
+    iframe{
+        width: 400px;
+    }
+
+}
+
+@media screen and (orientation: landscape) {
+    iframe{
+        width: 200px;
+        height: 150px;
+    }
+
+
+    html,body{
+    overflow:auto;
+    scrollbar-width: auto;
+    background: black;
+}
+
+body::-webkit-scrollbar{
+   display: block;
+}
+    
+    
+}
