@@ -5,11 +5,18 @@
     margin:0px;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 html,body{
+    overflow:hidden;
+    scrollbar-width: none;
     background: black;
     position: absolute;
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 
 main{
