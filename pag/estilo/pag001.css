@@ -11,15 +11,17 @@ html,body{
     width: 100vw;
     height: 100vh;
     background: black;
+    position: absolute;
 }
 
 main{
-    position: absolute;
     width: 100vw;
     height: 100vh;
-    background-image: url("download.jpeg")
-
-    
+    background-image: url("pexels-mikhail-nilov-6835293.jpg");
+    background-position: left center;
+    background-attachment: fixed;
+    background-size: cover;
+   
 }
 
 
@@ -28,6 +30,10 @@ header{
     width: 100vw;
 }
 
+p{
+    padding-left: 10px;
+    margin: 5px;
+}
 #link{
     box-sizing:  border-box;
     display:inline;
@@ -37,6 +43,7 @@ header{
     font-family: cursive;
     font-weight: bold;
     padding: 5px;
+    margin: 0px 0px 0px 10px;
     border-radius: 0px 0px 0px 0px;
     box-shadow: -2px 2px 2px white;
     
@@ -48,7 +55,7 @@ header{
 #link:hover{
     cursor: pointer;
     text-shadow: 2px 5px 10px #a102d1;
-    margin: 10px;
+    margin: 20px;
     padding: 5px;
     translate: 8px;
     transition: 0.6s;
@@ -66,7 +73,7 @@ header{
     font-weight: bold;
     padding: 5px;
     border-radius: 0px 0px 0px 0px;
-    box-shadow: -2px 2px 2px white;
+    box-shadow: 2px 2px 2px white;
     
 }
 
@@ -81,7 +88,7 @@ header{
     translate: 8px;
     transition: 0.6s;
     transition-timing-function: ease;
-    box-shadow: 2px 2px 4px white;
+    box-shadow: -2px 2px 4px white;
 }
 
 
