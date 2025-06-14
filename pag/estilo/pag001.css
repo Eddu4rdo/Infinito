@@ -132,6 +132,13 @@ iframe{
     left: 50%;
     transform: translate(-30%,-65%);
     height: 280px;
+    width: 200px;
+}
+iframe:hover{
+    border: 3px solid #2c0039;
+    translate: 8px;
+    transition: 0.6s;
+    transition-timing-function: ease;
 }
 
 aside{
