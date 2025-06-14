@@ -9,25 +9,10 @@
 
 @media screen and (orientation: landscape) {
     iframe{
-        width: 200px;
-        height: 150px;
+    display: none;
     }
 
 
-    html,body{
-    overflow:auto;
-    scrollbar-width: auto;
-    background: white;
-}
-
-body::-webkit-scrollbar{
-   display: block;
-}
-
-main{
-    background-size: contain;
-    background-attachment: fixed;
-}
-    
-    
+img{
+    display: none;
 }
