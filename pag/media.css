@@ -17,11 +17,16 @@
     html,body{
     overflow:auto;
     scrollbar-width: auto;
-    background: black;
+    background: white;
 }
 
 body::-webkit-scrollbar{
    display: block;
+}
+
+main{
+    background-size: contain;
+    background-attachment: fixed;
 }
     
     
